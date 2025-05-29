@@ -1,0 +1,66 @@
+.job-item-details-con {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  min-height: 100vh;
+}
+.jidr-job-item-con {
+  background-color: #272727;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.desc-visit-con {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-link {
+  text-decoration: none;
+  color: #6366f1;
+}
+.visit-icon-con {
+  display: flex;
+  align-items: center;
+}
+.visit-icon {
+  color: #6366f1;
+  width: 19px;
+  height: 20px;
+}
+.skills-list-con {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin: 0px 300px 50px 0px;
+}
+.skill-imgs {
+  width: 62px;
+  height: 62px;
+}
+.life-2-con {
+  display: flex;
+}
+.life-desc {
+  margin-top: 0px;
+}
+.similar-jobs-con {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+.similar-job-item {
+  background-color: #272727;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.failure-con {
+  background-color: #272727;
+  color: #ffffff;
+}

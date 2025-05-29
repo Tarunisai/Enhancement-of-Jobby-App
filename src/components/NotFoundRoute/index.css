@@ -1,0 +1,13 @@
+.not-found-con {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-not-found-heading {
+  margin-bottom: 0px;
+}
