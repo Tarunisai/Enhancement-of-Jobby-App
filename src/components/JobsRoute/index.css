@@ -7,21 +7,27 @@
 .first-con {
   padding: 10px 10px 10px 50px;
   width: 25%;
+  max-height: calc(100vh - 87.7px);
+  position: sticky;
+  top:87.7px;
+  overflow-y: auto;
 }
 .second-con {
   padding: 10px;
   width: 80%;
 }
 .profile-con {
+  width: 260px;
+  height: 228px;
+  padding: 15px;
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
   background-size: cover;
-  padding: 15px;
 }
 .name {
   color: #6366f1;
 }
 .short-bio {
-  color: #7e858e;
+  color: #35404d;
 }
 .employment-con {
   list-style-type: none;
@@ -37,7 +43,13 @@
 .salary-heading {
   font-size: 20px;
 }
-
+.location-list-con {
+  list-style-type: none;
+  padding: 0px;
+}
+.location-heading {
+  font-size: 20px;
+}
 .list-item-con {
   display: flex;
   align-items: center;
